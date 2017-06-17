@@ -1,2 +1,2 @@
-ln -i -h -s $PWD/tmux.conf ~/.tmux.conf
-ln -i -h -s $PWD/tmux.conf.osx ~/.tmux.conf.osx
+ln -i -n -s $PWD/tmux.conf ~/.tmux.conf
+ln -i -n -s $PWD/tmux.conf.osx ~/.tmux.conf.osx
