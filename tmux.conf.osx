@@ -1,4 +1,5 @@
 # for sharing clipboard on Mac OSX
+# TODO Use tmux-yank
 set-option -g default-command 'reattach-to-user-namespace -l zsh'
-bind -t vi-copy Enter copy-pipe 'reattach-to-user-namespace pbcopy'
-bind -t vi-copy MouseDragEnd1Pane copy-pipe 'reattach-to-user-namespace pbcopy'
+#bind -t vi-copy Enter copy-pipe 'reattach-to-user-namespace pbcopy'
+#bind -t vi-copy MouseDragEnd1Pane copy-pipe 'reattach-to-user-namespace pbcopy'
